@@ -50,6 +50,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    width: 90vw;
 }
 
 .heading-primary {
@@ -179,6 +180,7 @@ body {
 .content__title--text {
     display: block;
     text-align: center;
+    font-size: 6rem;
 }
 
 .content__text-box{
@@ -192,5 +194,32 @@ body {
     font-weight: 600;
 }
 
+@media (max-width: 1024px) {
+    html {
+        font-size: 50%;
+    }
 
+    .content__title--text {
+        font-size: 3rem;
+    }
 
+    .nav-item {
+        padding: 1rem 5rem;
+        font-size: 1.rem;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 40%;
+    }
+
+    .content__title--text {
+        font-size: 2rem;
+    }
+
+    .nav-item {
+        padding: 1rem 2rem;
+        font-size: 1.65rem;
+    }
+}
