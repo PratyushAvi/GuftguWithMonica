@@ -1,0 +1,16 @@
+.image-card {
+    position: relative;
+    text-align: center;
+
+    &__photo {
+        width: 70%;
+        border-radius: 2%;
+        box-shadow: 1.2rem 1.2rem 4rem rgba($color-black, 0.2);
+        transition: all 0.4s;
+    }
+
+    &__photo:hover {
+        transform: translateY(-0.5rem);
+        box-shadow: 1.5rem 1.5rem 2rem rgba($color-black, 0.2);
+    }
+}
