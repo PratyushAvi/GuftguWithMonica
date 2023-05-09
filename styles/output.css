@@ -524,7 +524,7 @@ video {
 
 .bg-animate {
   background-size: 400%;
-  animation: AnimationName 3s ease infinite;
+  animation: AnimationName 4s ease infinite;
 }
 
 @keyframes AnimationName {
@@ -738,10 +738,6 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
-}
-
-.duration-700 {
-  transition-duration: 700ms;
 }
 
 .ease-in-out {
